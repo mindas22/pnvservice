@@ -1,0 +1,579 @@
+/*additional styles*/
+
+body { 
+background: url(../img/bgd.svg) no-repeat  right top  scroll; 
+  -webkit-background-size: auto;
+  -moz-background-size: auto;
+  -o-background-size: auto;
+  background-size: 72%;
+}
+
+
+
+h1 {
+ 	color: #2c2d2d;
+ 	font-size: 24px;
+ 	text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+/*Using webfonts here*/
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+/*changed well class for our needs in index.html*/
+a.well {
+	border-radius: 0;
+	min-height: 150px;
+	max-height: 150px;
+	background-color: #ebe8e9;
+	border: 0;
+	display: block;
+	text-decoration: none;
+	color: #2c2d2d;
+	font-size: 16px;
+	font-weight: 700;
+	text-align: center;
+  transition: 0.3s ease;
+}
+
+.well:hover {
+	background-color: #026da0;
+	color: white;
+  transform: scale(1.13, 1.13);
+	-webkit-box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.6);
+    -moz-box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.6);
+	box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.6);
+}
+
+/*h1 in slider values*/
+.slider-h1 {
+	background-color: #00aeef;
+	min-height: 50px;
+	color: white;
+	font-size: 3em;
+	text-transform: none;
+}
+
+/*Changing btn-primary button colour for our taste*/
+
+.btn {
+	border-radius: 0;
+}
+
+.btn-primary {
+	/*background-color: #;*/
+  background-color: #006da0;
+	border: none;
+}
+.btn-primary:hover {
+  color: #fff;
+  background-color: #00aeef;
+  border: none;
+  }
+
+.btn-md {
+  padding: 10px 37px;
+  font-size: 16px;
+  }
+
+
+/*Changing specific glyphicon size */
+.glyphicon.glyphicon-earphone {
+    font-size: 24px;
+    color: #026da0;
+}
+
+/*customize the carousel*/
+
+/* Carousel base class, height and gap after carousel*/
+.carousel {
+  height: 500px;
+  margin-bottom: 20px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 500px;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 500px;
+  max-width: none;
+}
+.container .jumbotron {
+    border-radius: 0;
+}
+
+
+
+/*used for contact.html jumbotron background*/
+#contact {
+background-image: url("../img/contacts-img.jpg");
+background-size: cover;}
+
+/*used for about.html jumbotron background*/
+#aboutus {
+background-image: url("../img/about-us.jpg");
+background-size: cover;
+padding-left: 0;
+padding-top: 100px;
+min-height: 200px;
+}
+
+
+/*used for services.html jumbotron background*/
+#services {
+background-image: url("../img/services.jpg");
+background-size: cover;}
+
+/*My custom text-white class Used in about.html */
+
+.text-white {
+	color: white;
+}
+
+#logo {
+	width: 100%;
+	max-width: 150px;
+	min-width: 150px;
+	margin-top: 10px;
+}
+
+#logomobil {
+	/*width: 100%;*/
+	
+	max-width: 250px;
+	min-width: 100px;
+	padding-left: 20px;
+	padding-bottom: 10px;
+}
+
+
+.navbar-default {
+	background-color: transparent;
+	border: none;
+}
+.navbar-default .navbar-nav > li > a {
+	color: white;
+	text-transform: uppercase;
+}
+
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:focus, 
+.navbar-default .navbar-nav > .active > a:hover {
+    background-color: transparent;
+    color: #00aeef;
+}
+
+
+.navbar-default .navbar-nav > .open > a, 
+.navbar-default .navbar-nav > .open > a:focus, 
+.navbar-default .navbar-nav > .open > a:hover {
+    color: #00aeef ;
+    background-color: transparent;
+
+}
+
+
+
+.navbar-default .navbar-nav > li > a:focus, 
+.navbar-default .navbar-nav > li > a:hover {
+	color:#00aeef;
+	border-bottom: 3px solid white;
+	text-transform: uppercase;
+}
+
+.nav > li > a {
+   padding-bottom: 5px;
+ }
+
+
+/*To make img in index.html inverted when well parent hovered*/
+.well:hover > img {
+	-webkit-filter: invert(1);
+	filter: invert(1);
+}
+
+.well > img {
+	padding-top: 5px;
+	padding-bottom: 10px;
+}
+
+#top-item a {
+
+	border-top: none;
+}
+.dropdown-menu {
+	background-color: #00aeef;
+	font-size: 13px;
+-webkit-box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.75);
+}
+.dropdown-menu > li > a:focus, 
+.dropdown-menu > li > a:hover
+{
+	background-color: #026da0;
+		color: white;
+}
+
+.dropdown-menu > li > a {
+	border-top: 2px solid #4dc6f4;
+	color: white;
+}	
+
+
+
+
+.footer-bg1 {
+	background-color: #01aeef;
+	min-height: 80px;
+	max-height: 80px;
+	color:white;
+	text-transform: uppercase;
+	font-size: 20px;
+	padding-top: 20px;
+}
+
+.footer-bg2 {
+	background-color: #026da0;
+	min-height: 80px;
+	color:white;
+	font-size: 12px;
+  padding-top: 34px;
+
+}
+.footer-bg1 a {
+	color: white;
+}
+.footer-bg2 a {
+	color: white;
+	text-decoration: underline;
+	text-decoration-style: dashed;
+	-webkit-text-decoration-style: dashed;
+}
+
+
+#bg-special {
+	background-color: #00aeef;
+	font-size: 30px;
+	font-weight: 700;
+	font-style: italic;
+	width: 280px;
+	padding: 10px 30px;
+	min-height: 52px;
+	text-transform: uppercase;
+}
+
+.container .jumbotron, .container-fluid .jumbotron {
+	padding-top: 100px;
+	padding-left: 0;
+}
+
+.form-control{
+	background-color: #e7e7e7;
+	border-radius: 0;
+}
+
+
+.form-control::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #2c2d2d;
+}
+.form-control:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #2c2d2d;
+   opacity:  1;
+}
+.form-control::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #2c2d2d;
+   opacity:  1;
+}
+.form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #2c2d2d;
+}
+.form-control::-ms-input-placeholder { /* Microsoft Edge */
+   color:    #2c2d2d;
+}
+
+.break-small {
+
+line-height: 13px;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 160px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 160px;
+ }
+
+/*--------------------------------*/
+.carousel-indicators {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  z-index: 15;
+  width: 60%;
+  padding-left: 0;
+  margin-left: -30%;
+  text-align: center;
+  list-style: none;
+}
+.carousel-indicators li {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color:  #016ca0;
+  border: none;
+  border-radius: 0;
+}
+.carousel-indicators .active {
+  width: 15px;
+  height: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: #00aeef;
+}
+
+
+.h1-line {
+	color: #0fb3f0;
+}
+
+.thevideo {
+  margin: 20px;
+}
+
+#addpaddingbottom {
+  padding-bottom: 40px;
+}
+
+.space-bottom {
+  margin-bottom: 40px;
+}
+
+.space-bottom-20 {
+  margin-bottom: 20px;
+}
+
+
+/*--------------------------------------------*/
+
+ /*responsive --------------------------------------------------------------*/
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) and (max-width : 992px) {
+body { 
+background: url(../img/bg.png) no-repeat  right top  scroll; 
+/*  -webkit-background-size: auto;
+  -moz-background-size: auto;
+  -o-background-size: auto;*/
+  background-size: 75%;
+}
+}
+
+
+@media(max-width:767px){
+	body { 
+background:none; 
+		}
+
+	.navbar-default {
+	background-color: transparent;
+	border: none;
+	}
+	.navbar-default .navbar-nav > li > a {
+		color: white;
+		text-transform: uppercase;
+		background-color: #026da0;
+		}
+
+	.navbar-default .navbar-nav > .active > a, 
+	.navbar-default .navbar-nav > .active > a:focus, 
+	.navbar-default .navbar-nav > .active > a:hover {
+    	background-color: transparent;
+    	color: #00aeef;
+	}
+
+
+	.navbar-default .navbar-nav > .open > a, 
+	.navbar-default .navbar-nav > .open > a:focus, 
+	.navbar-default .navbar-nav > .open > a:hover {
+    	color: #00aeef ;
+    	background-color: transparent;
+	}
+
+
+
+	.navbar-default .navbar-nav > li > a:focus, 
+	.navbar-default .navbar-nav > li > a:hover {
+		color:#00aeef;
+		border-bottom: none;
+		text-transform: uppercase;
+	}
+	.navbar-nav {
+
+    margin: 0 -15px;
+
+}
+  .footer-bg2 {
+    padding-top: 22px;
+  }
+  .well:hover {
+    transform: scale(1, 1.13);
+  }
+  .space-bottom {
+  margin-bottom: 20px;
+}
+
+.space-bottom-20 {
+  margin-bottom: 10px;
+}
+}
+
+/* SM styling */
+@media (min-width: 200px) and (max-width:767px) {
+  .full-width {
+    width: 100%;
+    padding: 0;
+  }
+  .navbar {
+	margin-bottom: 0;  	
+  }
+  .text-xs-center { text-align: center; }
+  .container .jumbotron {
+  	margin: 0 -15px;
+  }
+	.footer-bg1 {
+	padding-top: 7px;
+}
+/*todo*/
+.carousel {
+  max-height: 350px;
+  margin-bottom: 10px;
+}
+.carousel .item {
+  max-height: 350px;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  max-height: 500px;
+  max-width: none;
+  max-height: 350px;
+}
+
+}
+
+/*todo*/
+@media (max-width:414px) {
+
+.carousel {
+  max-height: 250px;
+  margin-bottom: 10px;
+}
+.carousel .item {
+  max-height: 250px;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  max-height: 250px;
+}
+}
+
+@media (max-width:388px){
+
+.h1-line {
+	display: none;
+}
+
+}
+
+/*--------------------------------*/
+/*
+  Bootstrap Carousel Fade Transition (for Bootstrap 3.3.x)
+  CSS from:       http://codepen.io/transportedman/pen/NPWRGq
+  and:            http://stackoverflow.com/questions/18548731/bootstrap-3-carousel-fading-to-new-slide-instead-of-sliding-to-new-slide
+  Inspired from:  http://codepen.io/Rowno/pen/Afykb 
+*/
+.carousel-fade .carousel-inner .item {
+  opacity: 0;
+  transition-property: opacity;
+}
+
+.carousel-fade .carousel-inner .active {
+  opacity: 1;
+}
+
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  left: 0;
+  opacity: 0;
+  z-index: 1;
+}
+
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1;
+}
+
+.carousel-fade .carousel-control {
+  z-index: 2;
+}
+
+/*
+  WHAT IS NEW IN 3.3: "Added transforms to improve carousel performance in modern browsers."
+  Need to override the 3.3 new styles for modern browsers & apply opacity
+*/
+@media all and (transform-3d), (-webkit-transform-3d) {
+    .carousel-fade .carousel-inner > .item.next,
+    .carousel-fade .carousel-inner > .item.active.right {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0);
+    }
+    .carousel-fade .carousel-inner > .item.prev,
+    .carousel-fade .carousel-inner > .item.active.left {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0);
+    }
+    .carousel-fade .carousel-inner > .item.next.left,
+    .carousel-fade .carousel-inner > .item.prev.right,
+    .carousel-fade .carousel-inner > .item.active {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0);
+    }
+}
+
+
+
+/*------------------------------*/
