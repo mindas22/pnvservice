@@ -6,6 +6,7 @@ background: url(../img/bgd.svg) no-repeat  right top  scroll;
   -moz-background-size: auto;
   -o-background-size: auto;
   background-size: 72%;
+
 }
 
 
@@ -575,5 +576,9 @@ background:none;
 }
 
 
-
+@media(min-width:2000px){
+  body { 
+  background-size: 65%;
+}
+}
 /*------------------------------*/
